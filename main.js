@@ -79,5 +79,5 @@ function record_data(e) {
   finally {
     return;
 
-  });
+  };
 }
