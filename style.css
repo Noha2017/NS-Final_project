@@ -1,0 +1,111 @@
+img {
+  width: 35%;
+  padding: 10px 0;
+}
+
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #3c3c3c;
+  font-family: 'Lora', Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: black;
+  padding: 20px 0;
+  width:100%;
+  position:fixed;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+header nav ul li a {
+  color: grey;
+}
+
+#value {
+  padding: 200px 0 30px;
+  text-align: justify;
+
+}
+h4 {
+  color: #3c3c3c;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#value p, #value ul {
+  width: 100%;
+}
+#value ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 20%;
+}
+
+#contact {
+  background: hsl(0, 0%, 50%);
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+  width:100%;
+  display: inline-block;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 150px;
+}
+#gform, #contact_details {
+  width: 50%;
+  text-align: left;
+  background-color: inherit;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  margin:0 auto;
+  float:left;
+}
+
+#thankyou_message {
+  padding-top: 250px;
+  padding-bottom: 200px;
+  text-align: center;
+}
